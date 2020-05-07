@@ -1,0 +1,27 @@
+[submodule "my_plugins/auto-pairs"]
+	path = my_plugins/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs.git
+[submodule "my_plugins/fzf.vim"]
+	path = my_plugins/fzf.vim
+	url = https://github.com/junegunn/fzf.vim.git
+[submodule "my_plugins/fzf"]
+	path = my_plugins/fzf
+	url = https://github.com/junegunn/fzf.git
+[submodule "my_plugins/onedark"]
+	path = my_plugins/onedark
+	url = https://github.com/joshdick/onedark.vim.git
+[submodule "my_plugins/vim-polyglot"]
+	path = my_plugins/vim-polyglot
+	url = https://github.com/sheerun/vim-polyglot.git
+[submodule "my_plugins/vim-rails"]
+	path = my_plugins/vim-rails
+	url = https://github.com/tpope/vim-rails.git
+[submodule "my_plugins/vim-bundler"]
+	path = my_plugins/vim-bundler
+	url = https://github.com/tpope/vim-bundler.git
+[submodule "my_plugins/vim-rake"]
+	path = my_plugins/vim-rake
+	url = https://github.com/tpope/vim-rake.git
+[submodule "my_plugins/vim-endwise"]
+	path = my_plugins/vim-endwise
+	url = https://github.com/tpope/vim-endwise.git
