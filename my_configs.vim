@@ -5,14 +5,16 @@
 set mouse=a
 
 """"""""""""""""""""""""""""""
-" => FZF
+" System Copy/Paste 
 """"""""""""""""""""""""""""""
-let g:ctrlp_map = ''
-set rtp+=/usr/local/opt/fzf
-map <C-f> <Esc><Esc>:Files!<CR>
-inoremap <C-f> <Esc><esc>:BLines!<CR>
-map <C-g> <Esc><Esc>:BCommits!<CR>
-map <C-b> <Esc><Esc>:Buffers!<CR>
+
+set mouse=a
+
+" Copy to system clipboard
+vnoremap  <leader>y  "+y
+
+" Paste from system clipboard
+nnoremap <leader>p "+p
 
 """"""""""""""""""""""""""""""
 " => LanguageClient-neovim
@@ -25,6 +27,17 @@ nnoremap <F5> :call LanguageClient_contextMenu()<CR>
 nnoremap <silent> K :call LanguageClient#textDocument_hover()<CR>
 nnoremap <silent> gd :call LanguageClient#textDocument_definition()<CR>
 nnoremap <silent> <F2> :call LanguageClient#textDocument_rename()<CR>
+
+""""""""""""""""""""""""""""""
+" => FZF
+""""""""""""""""""""""""""""""
+let g:ctrlp_map = ''
+set rtp+=/usr/local/opt/fzf
+map <C-f> <Esc><Esc>:Files!<CR>
+inoremap <C-f> <Esc><esc>:BLines!<CR>
+map <C-g> <Esc><Esc>:BCommits!<CR>
+map <C-b> <Esc><Esc>:Buffers!<CR>
+
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => deoplete
